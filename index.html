@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap Font Icons CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Kdam+Thmor+Pro&family=Paytone+One&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="portstyle.css">
+
+    <!-- Bootstrap CDN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!-- Swiper Js CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>Portfolio</title>
+</head>
+
+<body class="back">
+    <div class='navbar-body'>
+        <div class='logo'>
+            <a href="/">
+                <h1>Portfolio</h1>
+            </a>
+        </div>
+        <div class='MenuButton'>
+            <button type='button' class='display-in-mobile fa-solid fa-bars' id="menu-btn"></button>
+
+
+            <div class='toggle-menu-section' id="toggle-menu">
+                <div class="welcome border-bottom border-dark">
+                    <div class="welcome-left-heading">
+                        <h4>Welcome to my Portfolio!</h4>
+                    </div>
+                    <div class="close-btn">
+                        <button type='button' class='display-in-mobile fa-solid fa-xmark' id="close-btn"></button>
+                    </div>
+                </div>
+                <div class="Toggle-options">
+                    <a href="/" class="active text-white"><h6 class="bg-dark"><i class="fa-solid fa-home text-white"></i>Home</h6></a>
+                    <a href="About.html"><h6><i class="fa-regular fa-user"></i>About</h6></a>
+                    <a href="Work.html"><h6><i class="fa-regular fa-folder"></i>Work</h6></a>
+                    <a href="blogs.html"><h6><i class="fa-brands fa-blogger"></i>Blog</h6></a>
+                    <a href="contact.html"><h6><i class="fa-regular fa-address-book"></i>Contact</h6></a>
+                </div>
+
+
+                <div class="footer-back-menu">
+                    <div class="footer-bg pb-3 text-white">
+                        <div class="container">
+                            <div class="footer-display">
+                                <div class="py-2 my-2">
+                                    <h6 class="signature-on-menu">Shubhnish Verma</h6>
+                                </div>
+                                <div class="py-2 my-1">
+                                    <p class="col-md-4 mb-0 text-body-secondary mt-2">Follow Me</p>
+                                    <div class="d-flex align-items-center my-2">
+                                        <a href="https://www.facebook.com/shubhnish.verma.5" target="_blank"><i
+                                                class="fa-brands fa-facebook"></i></a>
+                                        <a href="https://www.instagram.com/shubhnish_verma/" target="_blank"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                        <a href="https://www.linkedin.com/in/shubhnish-verma-2b6654280/"
+                                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                    </div>
+                                    <div class="d-flex align-items-center mt-3">
+                                        <a href="https://github.com/ShubhnishV02/" target="_blank"><i
+                                                class="fa-brands fa-github"></i></a>
+
+                                        <a href="https://medium.com/@shubhnishverma" target="_blank"><i
+                                                class="fa-brands fa-medium"></i></a>
+                                        <a href="https://youtube.com/@VermaCoder?sub_confirmation=1" target="_blank"><i
+                                                class="fa-brands fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                                <div class="py-2 my-2">
+                                    <p class="col-md-4 text-body-secondary w-100 fs-5 mb-2">Contact Info</p>
+                                    <div class="align-items-center footer-contact">
+                                        <p class="m-0">+91 8077-468568</p>
+                                        <p class="mb-0 m-0">shubhnishv01@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p style="font-size: 11.2px; padding-left: 0.5rem;">Portfolio Designed and created by
+                                Shubhnish Verma</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- cartoon image -->
+    <div class="logo-texture">
+        <img src="logo-texture.png" alt="cartoon image">
+    </div>
+
+    <!-- cartoon image -->
+    <div class="image-container-cartoon">
+        <img src="cartoonsitting.png" alt="cartoon image">
+    </div>
+
+    <!-- main container for the portfolio section -->
+
+    <div class="mainContent container">
+        <div class="leftContainerSection">
+            <div class="box">
+                <div class="ProfileImage">
+                    <a href="image-color-bg.png" target="_blank"><img src="image-color-bg.png" alt="" /></a>
+                </div>
+
+                <h2>Shubhnish Verma</h2>
+                <p class="container">Fresher / Looking for Web Developer Roles</p>
+
+                <div class="socialMediaIcons container">
+                    <div class="icon-border"><a href="https://www.facebook.com/shubhnish.verma.5" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a></div>
+                    <div class="icon-border"><a href="https://www.instagram.com/shubhnish_verma/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a></div>
+                    <div class="icon-border"><a href="https://www.linkedin.com/in/shubhnish-verma-2b6654280/"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="icon-border"><a href="https://github.com/ShubhnishV02/" target="_blank"><i
+                                class="fa-brands fa-github"></i></a></div>
+                </div>
+                <div class="container mt-4 p-4">
+                    <div class="card p-2">
+
+                        <div class="person-details">
+                            <div class="icon-border"><a href="#" class="p-1"><i class="fa-solid fa-mobile"></i></a>
+                            </div>
+                            <div class="details">
+                                <span>Phone</span>
+                                <h6>+91 8077468568</h6>
+                            </div>
+                        </div>
+                        <div class="person-details">
+                            <div class="icon-border"><a href="#"><i class="fa-regular fa-envelope"></i></a></div>
+                            <div class="details">
+                                <span>Email</span>
+                                <h6>shubhnishv01@gmail.com</h6>
+                            </div>
+                        </div>
+                        <div class="person-details">
+                            <div class="icon-border"><a href="#" class="p-1"><i
+                                        class="fa-solid fa-location-dot"></i></a></div>
+                            <div class="details">
+                                <span>Location</span>
+                                <h6>Meerut, Uttar Pradesh</h6>
+                            </div>
+                        </div>
+
+                        <div class="person-details">
+                            <div class="icon-border"><a href="#"><i class="fa-solid fa-cake-candles"></i></a></div>
+                            <div class="details">
+                                <span>Birthday</span>
+                                <h6>June 10, 1996</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="Resume_Shubhnish.pdf" download="Shubhnish_Verma_Resume.pdf"><button type="button"
+                            class="btn btn-clr"><span><i class="fa-solid fa-download"> </i></span>
+                            Download CV</button></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Middle Section -->
+
+        <div class="MiddleContainerSection">
+            <div class="box">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <hr style="width: 20%; height:0.15rem; color: rgb(60, 60, 247); opacity: 0.8; border-radius: 4px; ">
+                </div>
+                <div>
+                    <p class="about-para"> Hello! I'm Shubhnish Verma, a recent Computer Science graduate eager to
+                        kickstart my career in the dynamic field
+                        of technology. My academic journey has equipped me with strong problem-solving skills and a
+                        foundation in web
+                        development. I specialize in using technologies like Python, Django, JavaScript, HTML, and CSS
+                        to create robust and
+                        visually appealing web applications. Passionate about staying updated with the latest trends,
+                        I'm ready to contribute
+                        fresh ideas and learnings to innovative projects. Let's build something amazing together!
+                    </p>
+                </div>
+                <div class="what-i-do mb-3">
+                    <h3>What I DO!</h3>
+                </div>
+
+                <div class="all-skills mb-3">
+                    <div class="skill-set">
+                        <div class="skill-left-icon-section">
+                            <img src="app-development.png" alt="WebDevelopment-Icon">
+                        </div>
+                        <div class="skills-left-details-section">
+                            <h6>Web Development</h6>
+                            <p>Enthusiastic web developer with hands-on experience in HTML, CSS, and JavaScript.
+                                Proficient in frameworks such as
+                                Django and React. I've successfully delivered projects showcasing my ability to create
+                                responsive and
+                                user-friendly websites. Check out my portfolio for a glimpse of my work in web
+                                development.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-set" style="background-color: var(--fourth-color);">
+                        <div class="skill-left-icon-section">
+                            <img src="ux-design.png" alt="UIUX-Icon">
+                        </div>
+                        <div class="skills-left-details-section">
+                            <h6>UI / UX Design</h6>
+                            <p>Dedicated UI/UX designer with a keen eye for aesthetics and user-centric design. I
+                                specialize in creating
+                                visually pleasing and intuitive interfaces that enhance user experiences. Take a look at
+                                my portfolio to
+                                explore my diverse range of UI/UX design projects.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="all-skills">
+                    <div class="skill-set" style="background-color: var(--fourth-color);">
+                        <div class="skill-left-icon-section">
+                            <img src="web-design.png" alt="web-design-icon">
+                        </div>
+                        <div class="skills-left-details-section">
+                            <h6>Web Design</h6>
+                            <p>Passionate about creating visually appealing and user-friendly websites, I specialize in
+                                web design. Using HTML,
+                                CSS, and other design principles, I bring ideas to life through thoughtful and engaging
+                                website layouts. Explore
+                                my portfolio to see examples of my work in web design.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-set">
+                        <div class="skill-left-icon-section">
+                            <img src="online-shopping.png" alt="ecommerce-icon">
+                        </div>
+                        <div class="skills-left-details-section">
+                            <h6>E-commerce Solution</h6>
+                            <p>As an aspiring web developer, I have a keen interest in creating user-friendly E-commerce
+                                solutions. My focus
+                                is on crafting seamless online shopping experiences using technologies like Python and
+                                Django. Explore my
+                                portfolio to discover examples of my projects in E-commerce development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Education Section -->
+
+                <div class="what-i-do my-4">
+                    <h3>Education</h3>
+                </div>
+
+                <div class="all-education-section">
+                    <div class="education-section">
+                        <div class="skill-left-icon-section">
+                            <i class="bi bi-1-circle-fill"></i>
+                        </div>
+                        <div class="skills-left-details-section">
+                            <span>02 August, 2023</span>
+                            <h5>B.Tech</h5>
+                            <span>Computer Science</span>
+                        </div>
+                    </div>
+
+                    <div class="education-section">
+                        <div class="skill-left-icon-section">
+                            <i class="bi bi-2-circle-fill"></i>
+                        </div>
+                        <div class="skills-left-details-section">
+                            <span>10 September, 2017</span>
+                            <h5>Polytechnic -Diploma</h5>
+                            <span>Mechanical</span>
+                        </div>
+                    </div>
+
+                    <div class="education-section">
+                        <div class="skill-left-icon-section">
+                            <i class="bi bi-3-circle-fill"></i>
+                        </div>
+                        <div class="skills-left-details-section">
+                            <span>15 July, 2014</span>
+                            <h5>Intermediate</h5>
+                            <span>PCM</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Experience Section -->
+
+                <div class="what-i-do my-4">
+                    <h3>Experience</h3>
+                </div>
+
+                <div class="d-flex gap-3">
+                    <div class="education-section">
+                        <div class="skill-left-icon-section">
+                            <i class="bi bi-1-circle-fill"></i>
+                        </div>
+                        <div class="skills-left-details-section">
+                            <span>02 August, 2023</span>
+                            <h5>Fresher</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="RightContainerSection">
+            <div class="box">
+                <div class="icon-border-nav-items mb-3 active bg-warning"><a href="/"><i class="fa-solid fa-home"></i>
+                        <h5> Home</h5>
+                    </a></div>
+                <div class="icon-border-nav-items mb-3"><a href="About.html"><i class="fa-regular fa-user"></i>
+                        <h5> About</h5>
+                    </a></div>
+                <div class="icon-border-nav-items mb-3"><a href="Work.html"><i class="fa-regular fa-folder"></i>
+                        <h5> Work</h5>
+                    </a></div>
+                <div class="icon-border-nav-items mb-3"><a href="blogs.html"><i class="fa-brands fa-blogger"></i>
+                        <h5> Blogs</h5>
+                    </a></div>
+                <div class="icon-border-nav-items"><a href="contact.html"><i class="fa-regular fa-address-book"></i>
+                        <h5> Contact</h5>
+                    </a></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- cartoon image -->
+    <div class="image-container-cartoon2">
+        <img src="Designer2.png" alt="cartoon image">
+    </div>
+
+
+    <!-- Progress Section -->
+
+    <div class="container">
+        <div class="progress-body">
+            <div class="progress-heading">
+                <h3 class="mt-4 mb-3">My Skills <img src="" alt="" width="45px"></h3>
+            </div>
+            <div class="mb-3">
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4>Python</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4>Django</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4>React</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">40%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">85%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4>Bootstrap</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4>Git & Github</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+
+                <div class="progress-section">
+                    <div class="leftskillsNames">
+                        <h4>Problem Solving</h4>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <hr class="hr-style">
+
+
+
+    <!-- Project Section -->
+
+    <div class="container">
+        <h3 class="mt-2 mb-1">My Projects <img src="briefing.png" alt="Project Icon" class="projectIcon" /></h3>
+        <div class="project-section">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="project-card">
+                                <img src="Projecttt3.jpg" alt="" />
+                            </div>
+                            <h4>Weather Now</h4>
+                            <span> Weather Forecast Web Application</span>
+                            <div class="tag">
+                                <h6>React | JavaScript </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="project-card">
+                                <img src="projecttt1.jpg" alt="" />
+                            </div>
+                            <h4>Belleloom</h4>
+                            <span> E-commerce Website</span>
+                            <div class="tag">
+                                <h6>Python | Django | JavaScript</h6>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="project-card">
+                                <img src="Projecttt2.jpg" alt="" />
+                            </div>
+                            <h4>Travel India Info</h4>
+                            <span>Travelling Web Application</span>
+                            <div class="tag">
+                                <h6>Python | Django | Web Development</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="project-card">
+                                <img src="Projecttt4.jpg" alt="" />
+                            </div>
+                            <h4>Farm Picked</h4>
+                            <span>E-commerce Web Application | UI/UX Design</span>
+                            <div class="tag">
+                                <h6>Python | Django | JavaScript</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="project-card">
+                                <img src="Projecttt5.jpg" alt="" />
+                            </div>
+                            <h4>Tour India</h4>
+                            <span>Travelling Website</span>
+                            <div class="tag">
+                                <h6>HTML | CSS</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <hr class="hr-style">
+
+    <!-- Youtube Videos -->
+
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h3 class="mt-2 mb-1">Watch On Youtube <img src="icons8-youtube-480.png" alt="Youtube Icon" width="40px">
+            </h3>
+            <a href="https://youtube.com/@VermaCoder?sub_confirmation=1" target="_blank" class="view-more">View
+                More→</a>
+        </div>
+        <div class="youtube-section">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <a href="https://www.youtube.com/watch?v=ZggLo9l44Fw">
+                            <div class="box">
+                                <div class="youtube-card">
+                                    <img src="Picsart_24-02-22_19-22-49-036.jpg" alt="" />
+                                </div>
+                                <h4>🔥 Top Programming Languages 2024: Tier List, Rankings and Tips! 💻🚀 #coding
+                                    #python #javascript</h4>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="https://www.youtube.com/watch?v=CO4vkINBLBw&t=90s">
+                            <div class="box">
+                                <div class="youtube-card">
+                                    <img src="masterwebdevandHowtoimprovecoding.jpg" alt="" />
+                                </div>
+                                <h4>🔥 Master Web Development | How to Improve Coding Skills🚀: Secrets from Top
+                                    Developers
+                                    😱 #javascript</h4>
+
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <a href="https://www.youtube.com/watch?v=mBpeXumEwd8">
+                            <div class="box">
+                                <div class="youtube-card">
+                                    <img src="thumbnail.jpg" alt="" />
+                                </div>
+                                <h4>🔥 High Demand Programming Languages 💻 | JOB MARKET TRENDS 2024 😱📈</h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="https://www.youtube.com/watch?v=bGduePVPv9M">
+                            <div class="box">
+                                <div class="youtube-card">
+                                    <img src="thumbnail2.jpg" alt="" />
+                                </div>
+                                <h4>🔥 Get Hired in Web Development 🚀 | Secret Tips 2024 😱</h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="https://www.youtube.com/watch?v=Mj657wnae2w">
+                            <div class="box">
+                                <div class="youtube-card">
+                                    <img src="codeEditors.jpg" alt="" />
+                                </div>
+                                <h4>🔥 Best Code Editors for Web Development 💻 | How to Setup ⚙ | with Project 💡
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <hr class="hr-style">
+
+    <!-- Blogs Section -->
+
+    <div class="container mb-5">
+        <div class="d-flex justify-content-between align-items-center">
+            <h3 class="mt-2 mb-1">Our Latest Blogs <i class="fa-brands fa-blogger fs-1 mx-2"></i>
+            </h3>
+            <a href="blogs.html" class="view-more">View More→</a>
+        </div>
+        <div class="blogs-section">
+            <a
+                href="https://medium.com/@shubhnishverma/mastering-web-development-secrets-to-enhance-your-coding-skills-547fe52d7f58">
+                <div class="box">
+                    <div class="blogs-image">
+                        <img src="codingimage.jpg" alt="Blog_Image" />
+                    </div>
+                    <div class="blogs-details">
+                        <h6>12 Feb, 24</h6>
+                        <div class="blogs-heading-description">
+                            <h4>Mastering Web Development: Secrets to Enhance Your Coding Skills</h4>
+                            <span>Web development encompasses both frontend and backend components.
+                                While the frontend focuses on enhancing user interface and experience,
+                                the backend involves managing server-side logic and databases....<span
+                                    style="font-size: 12px;"> more</span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+
+            <a href="https://medium.com/@shubhnishverma/exception-handling-in-python-b86c3e913303">
+                <div class="box">
+                    <div class="blogs-image">
+                        <img src="EXCEPTION-HANDLING-IN-PYTHON.jpg" alt="Blog_Image" />
+                    </div>
+                    <div class="blogs-details">
+                        <h6>03 July, 22</h6>
+                        <div class="blogs-heading-description">
+                            <h4>Exception Handling in Python</h4>
+                            <span>Exception is an unwanted and unexpected event that occurs during the execution
+                                of a program i.e., at runtime, that disrupts the flow of the program execution....<span
+                                    style="font-size: 12px;"> more</span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+
+            <a href="https://medium.com/@shubhnishverma/fibonacci-series-in-python-12da155ebc89">
+                <div class="box">
+                    <div class="blogs-image">
+                        <img src="fibonacci-sequence.png" alt="Blog_Image" />
+                    </div>
+                    <div class="blogs-details">
+                        <h6>03 July, 22</h6>
+                        <div class="blogs-heading-description">
+                            <h4>Fibonacci Series in Python</h4>
+                            <span>The series sequence in Fibonacci series,
+                                named after Italian mathematician name Leonardo Pisano Bogollo, also known as Fibonacci,
+                                is a series or sequence of sum formed by previous two terms called Fibonacci numbers and
+                                it is denoted by Fn. The numbers in sequence of Fibonacci are given by — 0, 1, 1, 2, 3,
+                                5, 8, 13, 21,....<span style="font-size: 12px;"> more</span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="texture-img-on-hire">
+        <img src="textureimage-hire1.png" alt="texture">
+        <!-- <img src="textureimage-hire2.png" alt="texture"> -->
+        <img src="textureimage-hire1.png" alt="texture">
+    </div>
+    <div class="hire">
+        <h2 class="text-center">Let's Start Creating Together</h2>
+        <a href="contact.html"><button type="button" class="btn btn-outline-dark">Hire Me</button></a>
+    </div>
+
+
+
+
+    <!-- footer section -->
+    <div class="footer-bg pb-3 text-white">
+        <div class="container">
+            <div class="footer-display">
+                <div class="py-2 my-2">
+                    <h4 class="signature">Shubhnish Verma</h4>
+                </div>
+                <div class="py-2 my-2 follow-me">
+                    <p class="col-md-4 mb-0 text-body-secondary">Follow Me</p>
+                    <div class="d-flex align-items-center">
+                        <a href="https://www.facebook.com/shubhnish.verma.5" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/shubhnish_verma/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shubhnish-verma-2b6654280/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ShubhnishV02/" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+
+                        <a href="https://medium.com/@shubhnishverma" target="_blank"><i
+                                class="fa-brands fa-medium"></i></a>
+                        <a href="https://youtube.com/@VermaCoder?sub_confirmation=1" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="py-2 my-2">
+                    <p class="col-md-4 text-body-secondary w-100 fs-5 mb-2">Contact Info</p>
+                    <div class="align-items-center footer-contact">
+                        <p class="m-0">+91 8077-468568</p>
+                        <p class="mb-0 m-0">shubhnishv01@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <p style="font-size: 11.2px; padding-left: 0.5rem;">Portfolio Designed and created by Shubhnish Verma</p>
+            <footer class="border-top all-rights-reserved">
+                <p class="col-md-4 mb-0 text-body-secondary">Copyright © 2024 Shubhnish Verma, All rights reserved.</p>
+
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="/" class="text-body-secondary text-white">Home</a></li>
+                    </li>
+                    <li class="nav-item"><a href="contact.html" class="text-body-secondary text-white">Contact</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            centeredSlides: false,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                600: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                991: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1240: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+            },
+        });
+    </script>
+</body>
+
+
+
+</html>
