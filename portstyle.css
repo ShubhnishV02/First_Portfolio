@@ -1531,6 +1531,7 @@ ul {
 
     /* main content section */
     .mainContent {
+        position: relative;
         display: block;
         width: 95%;
         height: 100%;
