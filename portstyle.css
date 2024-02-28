@@ -78,7 +78,7 @@
     display: none;
 }
 
-.toggle-menu-section{
+.toggle-menu-section {
     display: none;
 }
 
@@ -130,7 +130,7 @@ button {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.leftContainerSection .box img {
+.ProfileImage img {
     position: relative;
     top: -52%;
     width: 55%;
@@ -763,6 +763,7 @@ ul {
     margin-top: 1rem;
     background-color: white;
 }
+
 .Education .box ul {
     width: 96%;
 }
@@ -1338,8 +1339,10 @@ ul {
         background-color: transparent;
         transition: background-color 0.3s ease;
     }
+
     .navbar-body.scrolled {
-        background-color: rgb(202, 201, 201) /* Updated background color when scrolled */
+        background-color: rgb(202, 201, 201)
+            /* Updated background color when scrolled */
     }
 
     .logo a h1 {
@@ -1354,22 +1357,22 @@ ul {
         width: 49%;
     }
 
-    .texture-img-on-hire img:nth-child(1) {
-        position: absolute;
-        top: 870%;
-        left: -17%;
-        width: 56%;
-        opacity: 0.2;
-        filter: drop-shadow(1px 1px 1px rgb(99, 99, 99));
+    .texture-img-on-hire img:nth-child(1),
+    .texture-img-on-hire img:nth-child(2),
+    .texture-img-on-hire-onaboutpage img:nth-child(1),
+    .texture-img-on-hire-onaboutpage img:nth-child(2),
+    .texture-img-on-hire-onworkpage img:nth-child(1),
+    .texture-img-on-hire-onworkpage img:nth-child(2) {
+        display: none;
     }
 
-    .texture-img-on-hire img:nth-child(2) {
-        position: absolute;
-        top: 872%;
-        left: 63%;
-        width: 38%;
-        opacity: 0.2;
-        filter: drop-shadow(1px 1px 1px rgb(99, 99, 99));
+
+    .hire {
+        background-image: url("textureimage-hire1.png"), url("textureimage-hire1.png");
+        background-position: -37%, 127%;
+        background-size: contain, contain;
+        background-repeat: no-repeat;
+        background-blend-mode: difference;
     }
 
     .MenuButton {
@@ -1385,7 +1388,8 @@ ul {
         font-size: 1.35rem;
 
     }
-    .toggle-menu-section{
+
+    .toggle-menu-section {
         display: none;
     }
 
@@ -1397,10 +1401,10 @@ ul {
 
     /* Menu button toggle functionality */
 
-    .toggle-menu-section{
+    .toggle-menu-section {
         position: fixed;
         top: 0%;
-        right: 0;
+        right: 0%;
         z-index: 777;
         width: 80%;
         height: 102vh;
@@ -1409,32 +1413,37 @@ ul {
         border: 2px solid #ccc;
         box-shadow: -17px 17px 60px grey;
     }
-    .toggle-menu-section h6 i{
-        border: 0px solid;
+
+    .toggle-menu-section h6 i {
         background-color: transparent;
         box-shadow: 0 0 0 white;
         margin-right: 0.4rem;
     }
 
-    .welcome{
+    .welcome {
         width: 100%;
         display: flex;
-        padding: 1.4rem;
         gap: 1rem;
         align-items: center;
         background-color: #d1cfcf;
     }
-    .welcome-left-heading{
+
+    .welcome-left-heading {
         width: 80%;
+        padding: 1.3rem 0 0.7rem 1.3rem;
     }
-    .welcome-left-heading h4{
+
+    .welcome-left-heading h4 {
         font-weight: 700;
     }
 
-    .close-btn{
+    .close-btn {
         width: 20%;
+        margin-left: 1.3rem;
+        padding-left: 0.4rem;
     }
-    .close-btn button{
+
+    .close-btn button {
         display: block;
         background-color: white;
         box-shadow: 0.5px 0.5px 3px grey;
@@ -1442,15 +1451,21 @@ ul {
         height: 2rem;
         font-size: 1.35rem;
     }
-    .Toggle-options{
+
+    .Toggle-options {
         padding: 1.5rem 1px 5px 1.5rem;
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
     }
-    .Toggle-options h6{
+
+    .Toggle-options h6 {
         width: 95%;
         font-size: 1.2rem;
         padding: 0.3rem;
     }
-    .Toggle-options a{
+
+    .Toggle-options a {
         text-decoration: none;
         color: var(--primary-color);
     }
@@ -1459,27 +1474,30 @@ ul {
         from {
             transform: translateX(100%);
         }
+
         to {
             transform: translateX(0%);
         }
     }
-    
+
     @keyframes slideupmenu {
         from {
             transform: translateX(0%);
         }
+
         to {
             transform: translateX(100%);
         }
     }
-    
+
     #toggle-menu {
         display: none;
     }
+
     .slidemenu {
         animation: slidemenu 0.6s ease-in-out;
     }
-    
+
     .slideupmenu {
         animation: slideupmenu 0.6s ease-in-out;
     }
@@ -1487,24 +1505,27 @@ ul {
 
 
 
-    .footer-back-menu{
+    .footer-back-menu {
         width: 100%;
         height: 22rem;
         position: fixed;
         bottom: 0;
     }
-    .footer-back-menu a{
+
+    .footer-back-menu a {
         margin-right: 0.5rem;
         text-decoration: none;
         color: white;
     }
-    .footer-back-menu a i{
-        width: 2.4rem;
-        height: 2.4rem;
-        font-size: 1.7rem;
+
+    .footer-back-menu a i {
+        width: 2.2rem;
+        height: 2.2rem;
+        font-size: 1.5rem;
+        /* margin-bottom: 0.5rem; */
     }
 
-    .signature-on-menu{
+    .signature-on-menu {
         font-family: "Allura", cursive;
         font-size: 1.5rem;
         font-weight: 600;
@@ -1517,12 +1538,7 @@ ul {
     /* cartoon image */
 
     .image-container-cartoon img {
-        position: absolute;
-        top: 124.9%;
-        left: 59%;
-        width: 41%;
-        z-index: 50;
-        filter: drop-shadow(1px 1px 1px rgb(99, 99, 99));
+        display: none;
     }
 
     .image-container-cartoon2 img {
@@ -1545,6 +1561,31 @@ ul {
         margin-bottom: 1rem;
     }
 
+    .leftContainerSection .box {
+        width: 100%;
+        height: 100%;
+        border: 2px solid #ccc;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+
+    .leftContainerSection .box .ProfileImage {
+        width: 100%;
+        height: 11.4rem;
+        margin-bottom: 0.7rem;
+        /* border: 2px solid purple; */
+    }
+
+    .ProfileImage img {
+        position: absolute;
+        top: -3.4%;
+        left: 22.8%;
+        width: 54%;
+    }
+
+
     .socialMediaIcons a {
         font-size: 1.8rem;
     }
@@ -1562,6 +1603,11 @@ ul {
 
     .person-details:last-child {
         border-bottom: none;
+    }
+
+    /* download cv button */
+    .btn-clr {
+        margin-bottom: 1.8rem;
     }
 
 
@@ -1891,32 +1937,40 @@ ul {
         font-weight: 700;
         font-size: 1.7rem;
     }
+
     .about-content .introduction p {
         width: 96%;
         padding-left: 1.5rem;
     }
+
     .education-and-skills {
         width: 100%;
         display: block;
     }
+
     .Education {
         width: 100%;
     }
+
     .Education .box {
         padding-top: 1rem;
         border-radius: 5px;
         margin-top: 1.2rem;
     }
+
     .Education .box ul {
         width: 96%;
     }
+
     .Education .box ul li {
         font-size: 14px;
         padding: 0.5rem 0;
     }
+
     .side-cartoon-image img {
         display: none;
     }
+
     .ul-skills-set .progress-section .leftskillsNames {
         width: 40%;
         padding-top: 0.5rem;
@@ -2254,6 +2308,7 @@ ul {
         padding-left: 1.1rem;
         margin-bottom: 1rem;
     }
+
     .contact-phone {
         width: 97%;
         border: 2px solid #ccc;
