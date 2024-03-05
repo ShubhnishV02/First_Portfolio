@@ -1929,8 +1929,15 @@ ul {
         margin-bottom: 2rem;
     }
 
-    .about-content-section {
+    .about-content{
         width: 100%;
+        height: 100%;
+    }
+    
+    .about-content-section {
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.57);
     }
 
     .about-content .introduction h2 {
@@ -2966,8 +2973,15 @@ ul {
         margin-bottom: 2rem;
     }
 
-    .about-content-section {
+    .about-content{
         width: 100%;
+        height: 100%;
+    }
+    
+    .about-content-section {
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.57);
     }
 
     .about-content .introduction h2 {
@@ -4020,8 +4034,15 @@ ul {
         margin-bottom: 2rem;
     }
 
-    .about-content-section {
+    .about-content{
         width: 100%;
+        height: 100%;
+    }
+    
+    .about-content-section {
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.57);
     }
 
     .about-content .introduction h2 {
@@ -4492,24 +4513,6 @@ ul {
         width: 28%;
     }
 
-    /* .texture-img-on-hire img:nth-child(1) {
-        position: absolute;
-        top: 477%;
-        left: 22%;
-        width: 17%;
-        opacity: 0.2;
-        filter: drop-shadow(1px 1px 1px rgb(99, 99, 99));
-    }
-
-    .texture-img-on-hire img:nth-child(2) {
-        position: absolute;
-        top: 479.5%;
-        left: 60%;
-        width: 11%;
-        opacity: 0.2;
-        filter: drop-shadow(1px 1px 1px rgb(99, 99, 99));
-    } */
-
     .texture-img-on-hire img:nth-child(1),
     .texture-img-on-hire img:nth-child(2),
     .texture-img-on-hire-onaboutpage img:nth-child(1),
@@ -4889,9 +4892,15 @@ ul {
 
     }
 
-    .about-content-section {
-        width: 98%;
+    .about-content{
+        width: 100%;
         height: 100%;
+    }
+    
+    .about-content-section {
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.57);
     }
     .education-and-skills {
         width: 100%;
@@ -4938,7 +4947,7 @@ ul {
     .about-right-section {
         position: sticky;
         top: 3%;
-        width: 20%;
+        width: 11%;
         height: 100%;
         border: 2px solid #ccc;
         justify-content: center;
