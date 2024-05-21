@@ -43,7 +43,7 @@
 
 .texture-img-on-hire img:nth-child(1) {
     position: absolute;
-    top: 490%;
+    top: 505%;
     left: 22%;
     width: 17%;
     opacity: 0.2;
@@ -52,7 +52,7 @@
 
 .texture-img-on-hire img:nth-child(2) {
     position: absolute;
-    top: 491.5%;
+    top: 507%;
     left: 60%;
     width: 11%;
     opacity: 0.2;
@@ -844,7 +844,7 @@ ul {
 
 .texture-img-on-hire-onaboutpage img:nth-child(1) {
     position: absolute;
-    top: 183.5%;
+    top: 199.5%;
     left: 22%;
     width: 17%;
     opacity: 0.2;
@@ -853,7 +853,7 @@ ul {
 
 .texture-img-on-hire-onaboutpage img:nth-child(2) {
     position: absolute;
-    top: 184.5%;
+    top: 201%;
     left: 60%;
     width: 11%;
     opacity: 0.2;
